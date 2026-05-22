@@ -20,7 +20,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(./foto/aksnja.jpg);
+  background-image: url(./foto/albumBG.webp);
   background-size: cover;
   background-position: center;
   filter: blur(5px) brightness(78%);
@@ -40,7 +40,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(./foto/aksnja.jpg);
+  background-image: url(./foto/albumBG.webp);
   background-size: cover;
   background-position: center;
   filter: blur(5px) brightness(78%);
@@ -60,7 +60,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(./foto/aksnja.jpg);
+  background-image: url(./foto/albumBG.webp);
   background-size: cover;
   background-position: center;
   filter: blur(5px) brightness(78%);
@@ -520,4 +520,15 @@ body {
 .navbar.scrolled .navbar-nav .nav-link.active {
   background-color: #ffffff !important; /* Box berganti menjadi putih */
   color: #1a1a2e !important;            /* Teks berganti menjadi gelap */
+}
+
+/* buat bagian sertifikat. tar dihapus ketika sudah ditambahkan semua sertifnya. */
+
+@media (max-width: 768px) {
+    .cert-notice {
+        font-size: 15px !important; /* Dikecilkan agar tidak menumpuk di HP */
+        line-height: 1.4;
+        margin-top: 20px;;
+        text-align: center !important; /* Rata kiri agar lebih mudah dibaca di layar kecil */
+    }
 }
