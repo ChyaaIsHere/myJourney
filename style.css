@@ -88,26 +88,6 @@ body {
   transform: scale(1.06);
 }
 
-#materiBG {
-  position: relative;
-  overflow: hidden;
-}
-
-#materiBG::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(./foto/materibg.jpg);
-  background-size: cover;
-  background-position: center;
-  filter: blur(4px) brightness(70%);
-  z-index: -1;
-  transform: scale(1.25);
-}
-
 #jumbotron {
   position: relative;
   overflow: hidden;
@@ -120,7 +100,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(./foto/index.webp);
+  background-image: url('./foto/index.webp');
   background-size: cover;
   background-position: center;
   filter: blur(6.2px) brightness(90%);
